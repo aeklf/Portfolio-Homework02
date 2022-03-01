@@ -3,11 +3,30 @@ background-color: lightsteelblue;
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 font-size: larger;
-text-decoration-color: lightslategray;
+display: block;
+}
+
+header h1 {
+    color: linen;
+}
+
+header h2 .name {
+    color: steelblue;
+    font-style: italic;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    justify-content: space-between;
 }
 
 .nav{
     background-color: lightskyblue;
+    color: steelblue;
 }
 
 .body {
