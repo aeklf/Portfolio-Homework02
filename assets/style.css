@@ -1,9 +1,15 @@
+/* HEADER */
 .header {
 background-color: lightsteelblue;
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 font-size: larger;
-display: block;
+display: inline-block;
+justify-content: space-between;
+position: relative;
+width: 25%;
+height: 209px;
+margin-top: -8px;
 }
 
 header h1 {
@@ -15,20 +21,30 @@ header h2 .name {
     font-style: italic;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    justify-content: space-between;
-}
+/* NAV BAR */
 
 .nav{
     background-color: lightskyblue;
     color: steelblue;
+    position: relative;
+    text-align: center;
+    width: 75%;
+    left: 25%;
+    height: 240px;
+    margin-top: -34px;
+    position: inherit;
 }
 
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-between;
+    display: inline;
+    margin:0px;
+    padding:0px;
+}
+
+/* BODY */
 .body {
     font-family: Arial;
     margin: 0;
