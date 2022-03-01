@@ -1,0 +1,22 @@
+* {
+
+}
+
+.header {
+background-color: aliceblue;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: larger;
+text-decoration-color: lightsteelblue;
+}
+
+.header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-color: lightsteelblue;
+}
+
+.header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-color: lightslategray;
+}
+
