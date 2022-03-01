@@ -1,18 +1,16 @@
 .header {
-background-color: aliceblue;
+background-color: lightsteelblue;
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 font-size: larger;
-text-decoration-color: lightsteelblue;
+text-decoration-color: lightslategray;
 }
 
-.header h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration-color: lightsteelblue;
+.nav{
+    background-color: lightskyblue;
 }
 
-.header h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration-color: lightslategray;
-}
-
+body {
+    font-family: Arial;
+    margin: 0;
+  }
