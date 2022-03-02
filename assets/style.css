@@ -8,18 +8,20 @@
 
 body {
     background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
 .header {
-background-color: lightsteelblue;
-text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-font-size: larger;
-display: inline-block;
-justify-content: space-between;
-position: relative;
-width: 25%;
+    position: relative;
+    background-color: lightsteelblue;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header h1 {
@@ -36,29 +38,35 @@ header h2 .name {
 .nav{
     background-color: lightskyblue;
     color: steelblue;
-    position: relative;
-    text-align: center;
-    width: 75%;
-    left: 25%;
-    height: 240px;
-    margin-top: -34px;
-    position: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    overflow: hidden;
+    display: table; 
+}
+
+ul{
+    background-color: lightskyblue;
+    color: steelblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
 }
 
-.nav a:hover {
-    color:azure
+li {
+    float: left;
 }
 
-.horizontal {
-    list-style-type: none;
-    position: relative;
-    justify-content: space-between;
-    display: inline;
-    margin:0px;
-    padding:0px;
-    float: inline-end;
+li a {
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
+
 
 /* BODY */
 .body {
@@ -66,3 +74,12 @@ header h2 .name {
     margin: 0;
     background-color: lightyellow;
   }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 679px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
