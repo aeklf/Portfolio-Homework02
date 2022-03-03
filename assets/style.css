@@ -57,6 +57,7 @@ ul {
 
 li {
   float: left;
+  justify-content: center;
 }
 
 li a {
@@ -68,9 +69,10 @@ li a {
 }
 
 /* BODY */
-.body {
-  font-family: Arial;
-  margin: 0;
+
+h3 {
+  font-weight: bold;
+  color: darkslategrey;
 }
 
 #image-one {
@@ -80,8 +82,9 @@ li a {
 
 #about {
   text-align: center;
-  border: 1px solid steelblue;
+  border: 2px solid steelblue;
   padding: 2px;
+  margin: 5px;
 }
 
 #container {
@@ -94,6 +97,27 @@ li a {
   padding: 1px;
   width: 30%;
   height: auto;
+}
+
+#showcase {
+  border: 2px solid steelblue;
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+}
+
+#contact-information {
+  text-align: center;
+  border: 2px solid steelblue;
+  margin: 8px;
+  padding: 2px;
+}
+
+#contact-here {
+  text-align: center;
+  border: 2px solid steelblue;
+  margin: 5px;
+  padding: 2px;
 }
 
 /* FORM */
