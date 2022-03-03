@@ -78,6 +78,24 @@ li a {
   width: 100%;
 }
 
+#about {
+  text-align: center;
+  border: 1px solid steelblue;
+  padding: 2px;
+}
+
+#container {
+  width: 600px;
+  height: 400px;
+}
+
+#image-two {
+  border: 0.5px solid lightsteelblue;
+  padding: 1px;
+  width: 30%;
+  height: auto;
+}
+
 /* FORM */
 
 /* MEDIA QUERIES */
