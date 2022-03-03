@@ -1,86 +1,83 @@
 /* GEN */
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
 .header {
-    position: relative;
-    background-color: lightsteelblue;
-    display: block;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  background-color: lightsteelblue;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header h1 {
-    color: linen;
+  color: linen;
 }
 
 header h2 .name {
-    color: steelblue;
-    font-style: italic;
+  color: steelblue;
+  font-style: italic;
 }
 
 /* NAV BAR */
 
-.nav{
-    background-color: lightskyblue;
-    color: steelblue;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-    overflow: hidden;
-    display: table; 
+.nav {
+  background-color: lightskyblue;
+  color: steelblue;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  overflow: hidden;
+  display: table;
 }
 
-ul{
-    background-color: lightskyblue;
-    color: steelblue;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+ul {
+  background-color: lightskyblue;
+  color: steelblue;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
+  display: block;
   color: white;
   text-align: center;
   padding: 16px;
   text-decoration: none;
 }
 
-
 /* BODY */
 .body {
-    font-family: Arial;
-    margin: 0;
-  }
+  font-family: Arial;
+  margin: 0;
+}
 
 .image-one {
-    align-items: center;
-    max-width: 632px;
-    max-height: 900px;
+  align-items: center;
+  width: 100%;
 }
 
 /* FORM */
-
 
 /* MEDIA QUERIES */
