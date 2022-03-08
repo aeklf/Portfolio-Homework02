@@ -145,7 +145,7 @@ h3 {
 
 /* MEDIA QUERIES */
 /* header and body color changes on smartphone display; responsive image layout */
-@media only screen and (max-width 768px) {
+@media only screen and (max-width: 768px) {
   header {
     color: steelblue;
   }
