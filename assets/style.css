@@ -135,6 +135,24 @@ h3 {
   padding: 2px;
 }
 
-/* FORM */
+/* PROJECT IMAGES */
+
+.thumbnail:hover {
+  opacity: 50%;
+  width: 150%;
+  height: auto;
+}
 
 /* MEDIA QUERIES */
+/* header and body color changes on smartphone display; responsive image layout */
+@media only screen and (max-width 768px) {
+  header {
+    color: steelblue;
+  }
+  body {
+    color: rgb(180, 189, 201);
+  }
+  .project-column {
+    width: 100%;
+  }
+}
